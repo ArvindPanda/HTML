@@ -3,13 +3,38 @@
 
     <head>
         <title>About me</title>
+        <style>
+            #enjoy-text{
+                color:deepskyblue;
+                font-weight: bold;
+            }
+            #para-wrapper{
+                font-size: 20px;
+                color: fuchsia;
+            }
+
+            .list{
+                color:rebeccapurple;
+                font-size: 20px;
+
+                
+            }
+            #welcome-note {
+                color: red;
+                font-size: 30px;
+            }
+
+            h2 {
+                color: chocolate;
+            }
+        </style>
 
     </head>
 
     <body>
         <h2 align="right"> Welcome </h2>
         <img width="150px" src="flower.jpeg"></img>
-        <h3 style="color:blue"> Welcome to my website </h3>
+        <h3 id="welcome-note"> Welcome to my website </h3>
 
 
 
@@ -18,22 +43,25 @@
 
 
 
+        <div id="para-wrapper">
+            <p>I am a <em>Student</em> currently learning HTML from Java Brains. </p>
 
-        <p>I am a <em>Student</em> currently learning HTML from Java Brains. </p>
+            <p>Hope you <span id ="enjoy-text">enjoy</span> your stay at the website.</p>
+        </div>
 
 
         <ul>
-            <li>Reading </li>
-            <li> Writing </li>
-            <li> doing stuff</li>
+            <li class ="list">Reading </li>
+            <li class ="list"> Writing </li>
+            <li class ="list"> doing stuff</li>
         </ul>
 
 
 
         <ol>
-            <li> Pen</li>
-            <li> Pencil </li>
-            <li> Paper </li>
+            <li class ="list"> Pen</li>
+            <li class ="list"> Pencil </li>
+            <li class ="list"> Paper </li>
 
 
         </ol>
