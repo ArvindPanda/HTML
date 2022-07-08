@@ -1,4 +1,55 @@
-.profile-image { 
- width:100px;
+body {
+    margin: 0;
+    font-family: 'Albert Sans', sans-serif;
 
+
+}
+
+.about-me {
+    background-color: burlywood;
+    padding: 20px;
+    margin: 40px;
+}
+
+.profile-image {
+    width: 100px;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+
+.hero-section {
+    background-color: #e85d04;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#name {
+    color: white;
+
+}
+
+.designation {
+    color: white;
+    font-style: italic;
+}
+
+
+
+.about-content {
+    font-style: italic;
+    line-height: 25px;
+}
+
+.spaced-container {
+    padding: 20px;
+    margin: 40px;
+}
+
+.hobbies {
+    border-top: 5px solid black;
+}
+
+.movies {
+    border-top: 5px solid black;
 }
